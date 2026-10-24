@@ -1,0 +1,205 @@
+@charset "UTF-8";
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #ccc;
+}
+wrapper {
+	width: 1366px;
+	margin: 0 auto;
+	display: block;
+	background-color: #fff;
+}
+header {
+	height: 150px;
+	background-color: #5A0405;
+}
+#Combined-Shape  {
+	margin-top: -85px;
+	padding-top: 60px;
+	padding-right: 55px;
+	padding-left: 58px;
+	padding-bottom: 69px;
+}
+#Logo_1985-1986 {
+	width: 1366px;
+	height: 30px;
+}
+#Shape {
+}
+svg {
+	width: 1366px;
+	height: 141px;
+}
+footer {
+	padding: 16px;
+	font-size: 12px;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,1.00);
+}
+nav {
+	background-color: rgba(67,4,5,0.48);
+	padding-left: 142px;
+}
+wrapper main {
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+ul a li {
+	display: inline-block;
+	padding: 16px 24px;
+	font-size: 20px;
+	color: #fff;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+ul a li:hover {
+	background-color: #000;
+}
+#home {
+	background-image: url(Screenshot%202026-10-21%20at%209.52.49%E2%80%AFPM.png);
+	width: 1366px;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: 1367px auto;
+	margin-left: -1px;
+	padding-left: 0px;
+}
+#news {
+	background-image: url(Screenshot%202026-10-21%20at%2010.20.22%E2%80%AFPM.png);
+	width: 434px;
+	height: 579px;
+	padding-left: 0px;
+	margin-left: 88px;
+	margin-top: -442px;
+	margin-bottom: 153px;
+	padding-top: 0px;
+}
+wrapper h2 {
+	padding-left: 99px;
+	padding-top: 13px;
+	margin-top: 35px;
+	font-size: 53px;
+}
+body wrapper h3 {
+	margin-left: 561px;
+	margin-top: 77px;
+	font-size: 45px;
+	color: rgba(84,46,46,1.00);
+}
+body wrapper h4 {
+	margin-left: 563px;
+	padding-right: 0px;
+	font-size: 28px;
+}
+body wrapper h4 {
+	color: rgba(124,91,91,1.00);
+}
+h2 {
+	margin-left: 81px;
+}
+p {
+	margin-left: 182px;
+	margin-right: 217px;
+	padding-bottom: 12px;
+	margin-bottom: 18px;
+}
+#store {
+	background-image: url(Screenshot%202026-10-22%20at%2012.38.20%E2%80%AFPM.png);
+	width: 1366px;
+	height: 886px;
+	background-size: 1282px auto;
+}
+h3 {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#photos {
+	background-image: url(Screenshot%202026-10-22%20at%202.35.18%E2%80%AFAM.png);
+	width: 1366px;
+	height: 700px;
+}
+#videos {
+	padding-left: 117px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+	padding-right: 0px;
+}
+#concerts {
+	padding-left: 127px;
+	padding-top: 35px;
+	padding-bottom: 37px;
+}
+a span {
+	margin-left: 216px;
+	margin-top: 0px;
+	padding-left: 318px;
+}
+a .publication-logo {
+	padding-left: 638px;
+	width: 84px;
+	padding-top: 95px;
+	margin-left: -1px;
+	margin-top: -6px;
+}
+.pencraft.pc-display-flex.pc-gap-4.pc-reset.pc-display-inline-flex {
+	padding-left: 619px;
+	padding-top: 0px;
+}
+.emailInputWrapper-QlA86j .pencraft.pc-display-flex.pc-minWidth-0.pc-position-relative.pc-reset.flex-auto-UL7Y7f .pencraft.emailInput-OkIMeB.input-y4v6N4.inputText-pV_yWb {
+}
+.sideBySideWrap-vGXrwP .emailInputWrapper-QlA86j .pencraft.pc-display-flex.pc-minWidth-0.pc-position-relative.pc-reset.flex-auto-UL7Y7f {
+	padding-left: 614px;
+	margin-top: 7px;
+	margin-left: -8px;
+}
+.embed-page .embed-page-inner .publication-tagline {
+	padding-left: 341px;
+	color: rgba(133,59,60,1.00);
+	padding-bottom: 6px;
+	padding-top: 0px;
+}
+.form.form-M5sC90 .sideBySideWrap-vGXrwP .pencraft.pc-reset.pencraft.rightButton.primary.subscribe-btn.button-VFSdkv.buttonBase-GK1x3M {
+	margin-left: 642px;
+	margin-bottom: 89px;
+	margin-top: 8px;
+}
+.card-title .product_med .price {
+	margin-left: -278px;
+	padding-left: 297px;
+}
+.1merch {
+	width: 315px;
+}
+.merch1 {
+	padding-left: 0px;
+	display: block;
+	margin-top: -140px;
+}
+.merch2 {
+	display: block;
+	margin-top: -179px;
+}
+.merch3 {
+	display: block;
+	padding-top: 1px;
+	margin-top: -185px;
+}
+.merch4 {
+	display: block;
+	margin-top: -195px;
+}
+#merch {
+	display: block;
+}
+#merch h2 {
+	margin-left: 374px;
+	margin-top: 25px;
+}
+#privacy {
+	margin-top: 181px;
+	margin-right: 181px;
+	margin-left: 181px;
+	margin-bottom: 181px;
+}
