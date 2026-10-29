@@ -58,7 +58,7 @@ ul a li:hover {
 	background-color: #000;
 }
 #home {
-	background-image: url(Screenshot%202026-10-21%20at%209.52.49%E2%80%AFPM.png);
+	background-image: url("homepage.png");
 	width: 1366px;
 	height: 700px;
 	background-repeat: no-repeat;
