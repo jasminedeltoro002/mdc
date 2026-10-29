@@ -68,13 +68,9 @@ ul a li:hover {
 }
 #news {
 	background-image: url(newspage.png);
-	width: 434px;
-	height: 579px;
 	padding-left: 0px;
-	margin-left: 88px;
-	margin-top: -442px;
-	margin-bottom: 153px;
 	padding-top: 0px;
+	background-repeat: no-repeat;
 }
 wrapper h2 {
 	padding-left: 99px;
@@ -97,7 +93,7 @@ body wrapper h4 {
 	color: rgba(124,91,91,1.00);
 }
 h2 {
-	margin-left: 81px;
+	margin-left: 678px;
 }
 p {
 	margin-left: 182px;
