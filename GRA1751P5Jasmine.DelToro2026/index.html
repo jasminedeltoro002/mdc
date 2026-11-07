@@ -85,14 +85,26 @@ nav a {
 	border: 2px solid transparent;
 	cursor: pointer;
 }
-#btn-gray  { background-color: #8a9199; }
-#btn-red   { background-color: #e0443a; }
-#btn-white { background-color: #fff; border: 2px solid #3d4450 !important; }
-
+#swatches #btn-gray  { background-color: #8a9199; }
+#swatches #btn-red   { background-color: #e0443a; }
+#swatches #btn-white { background-color: #fff; border: 2px solid #3d4450; }
 #swatches button.selected { outline: 3px solid #3d4450; }
 #sizes span {
 	margin-right: 28px;
 	font-size: 18px;
+}
+footer {
+	margin: 40px 5% 20px;
+	padding-top: 15px;
+	border-top: 1px solid #3d4450;
+	font-family: Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	font-size: 12px;
+	line-height: 1.5;
+	color: #3d4450;
+}
+footer p {
+	margin: 0;
 }
 </style>
 </head>
@@ -119,18 +131,17 @@ nav a {
 
 <div id="product">
   <div id="photo">
-  <section id="grayshirt" class="shirt active">
-    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gray','','gray2.png',1)"><img src="gray1.png" alt="Gray shirt" id="gray"></a>
-  </section>
-  <section id="redshirt" class="shirt">
-    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('red','','red2.png',1)"><img src="red1.png" alt="Red shirt" id="red"></a>
-  </section>
-  <section id="whiteshirt" class="shirt">
-    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('white','','white2.png',1)"><img src="white1.png" alt="White shirt" id="white"></a>
-  </section>
-</div>
-	
-	
+    <section id="grayshirt" class="shirt active">
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gray','','gray2.png',1)"><img src="gray1.png" alt="Gray shirt" id="gray"></a>
+    </section>
+    <section id="redshirt" class="shirt">
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('red','','red2.png',1)"><img src="red1.png" alt="Red shirt" id="red"></a>
+    </section>
+    <section id="whiteshirt" class="shirt">
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('white','','white2.png',1)"><img src="white1.png" alt="White shirt" id="white"></a>
+    </section>
+  </div>
+
   <div id="info">
     <h2>H&amp;M</h2>
     <h3>Long Sleeve Top</h3>
@@ -148,6 +159,10 @@ nav a {
     </div>
   </div>
 </div>
+
+<footer>
+  <p> 2026, Jasmine Del Toro. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
 
 <script type="text/javascript">
 function MM_swapImgRestore() {
@@ -177,6 +192,5 @@ function showShirt(id, btn) {
   btn.classList.add('selected');
 }
 </script>
-
 </body>
 </html>
