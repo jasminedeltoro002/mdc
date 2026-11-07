@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>welcome to h&amp;m | jasmine del toro 2026</title>
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: Georgia, serif;
+	font-variant: small-caps;
+	color: #3d4450;
+}
+header {
+	display: flex;
+	align-items: center;
+	padding: 20px 6%;
+}
+h1 {
+	margin: 0 60px 0 0;
+	font-size: 48px;
+	color: #e50010;
+	font-variant: normal;
+}
+#search input[type="text"] {
+	width: 380px;
+	padding: 4px;
+}
+nav {
+	background-color: #3d4450;
+	margin: 0 5%;
+	padding: 14px 0;
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+#product {
+	display: flex;
+	padding: 30px 6%;
+	gap: 60px;
+}
+#photo {
+	width: 350px;
+}
+.shirt {
+	display: none;
+}
+.shirt.active {
+	display: block;
+}
+.shirt img {
+	width: 350px;
+	height: auto;
+}
+#info {
+	flex: 1;
+}
+#info h2 {
+	margin: 20px 0 4px;
+	font-size: 28px;
+}
+#info h3 {
+	margin: 0 0 30px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#price {
+	font-style: italic;
+	font-size: 22px;
+	padding-bottom: 12px;
+	border-bottom: 2px solid #3d4450;
+}
+#swatches {
+	margin: 60px 0 40px 80px;
+}
+#swatches button {
+	width: 40px;
+	height: 40px;
+	margin-right: 18px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+#btn-gray  { background-color: #8a9199; }
+#btn-red   { background-color: #e0443a; }
+#btn-white { background-color: #fff; border: 2px solid #3d4450 !important; }
+
+#swatches button.selected { outline: 3px solid #3d4450; }
+#sizes span {
+	margin-right: 28px;
+	font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>H&amp;M</h1>
+  <form id="search" onsubmit="return false;">
+    <input type="text" placeholder="Search">
+    <input type="submit" value="Submit">
+  </form>
+</header>
+
+<nav>
+  <a href="#">Women's</a>
+  <a href="#">Men's</a>
+  <a href="#">Home</a>
+  <a href="#">Shoes</a>
+  <a href="#">Juniors</a>
+  <a href="#">Beauty</a>
+  <a href="#">Jewelry</a>
+  <a href="#">Active</a>
+</nav>
+
+<div id="product">
+  <div id="photo">
+  <section id="grayshirt" class="shirt active">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('gray','','gray2.png',1)"><img src="gray1.png" alt="Gray shirt" id="gray"></a>
+  </section>
+  <section id="redshirt" class="shirt">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('red','','red2.png',1)"><img src="red1.png" alt="Red shirt" id="red"></a>
+  </section>
+  <section id="whiteshirt" class="shirt">
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('white','','white2.png',1)"><img src="white1.png" alt="White shirt" id="white"></a>
+  </section>
+</div>
+	
+	
+  <div id="info">
+    <h2>H&amp;M</h2>
+    <h3>Long Sleeve Top</h3>
+    <div id="price">$35.00</div>
+
+    <div id="swatches">
+      <button id="btn-gray" class="selected" onclick="showShirt('grayshirt', this)" title="Gray"></button>
+      <button id="btn-red" onclick="showShirt('redshirt', this)" title="Red"></button>
+      <button id="btn-white" onclick="showShirt('whiteshirt', this)" title="White"></button>
+    </div>
+
+    <div id="sizes">
+      Size<br>
+      <span>XS</span><span>S</span><span>M</span><span>L</span><span>XL</span>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+function MM_swapImgRestore() {
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) {
+  if(!d) d=document;
+  return d.getElementById(n);
+}
+function MM_swapImage() {
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array;
+  for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function showShirt(id, btn) {
+  var shirts = document.querySelectorAll('.shirt');
+  for (var i = 0; i < shirts.length; i++) {
+    shirts[i].classList.remove('active');
+  }
+  document.getElementById(id).classList.add('active');
+
+  var buttons = document.querySelectorAll('#swatches button');
+  for (var j = 0; j < buttons.length; j++) {
+    buttons[j].classList.remove('selected');
+  }
+  btn.classList.add('selected');
+}
+</script>
+
+</body>
+</html>
